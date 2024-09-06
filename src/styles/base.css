@@ -1,0 +1,20 @@
+.wrapper {
+  @apply max-w-[1270px] mx-auto pl-[15px] pr-[15px] w-full;
+}
+
+.button {
+  @apply w-auto p-3 bg-black text-white rounded-lg transition duration-[0.35s] ease-in-out hover:bg-white hover:text-black;
+}
+
+.retry {
+  @apply bg-red-550 hover:bg-red-300;
+}
+
+.input {
+  @apply mt-2 p-1 ml-2 border border-solid text-base font-normal;
+}
+
+.tableHeader,
+.tableData {
+  @apply py-2 px-4 border border-violet-400;
+}
